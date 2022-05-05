@@ -14,7 +14,7 @@ fn validate_grading_system() {
     let carrots = 10;
     let nuts = 5;
     let seeds = 1;
-    let grade = calculate_grade(carrots, nuts, seeds);
+    let grade = calculate_grade(carrots, nuts, seeds); 
 
     assert!(grade == 240);
     println!("Validation complete ✅\n");
